@@ -8,7 +8,7 @@ brew tap matt-the-ogre/tap
 
 | Cask | App | Status |
 | ---- | --- | ------ |
-| `cribsheet` | [Cribsheet](https://github.com/matt-the-ogre/cribsheet-releases) — hold Command to see every keyboard shortcut of the frontmost app | Coming with the first notarised release |
+| `cribsheet` | [Cribsheet](https://github.com/matt-the-ogre/cribsheet-releases) — hold Command to see every keyboard shortcut of the frontmost app | Available |
 
 Once a cask is listed as available:
 
