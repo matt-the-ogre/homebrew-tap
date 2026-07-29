@@ -1,6 +1,6 @@
 cask "cribsheet" do
   version "0.4.0"
-  sha256 "REPLACE_WITH_SHA256_OF_RELEASE_ZIP"
+  sha256 "241253b8b87cda4ca9c7fd286504ed5f7eba45f748ba902b86bb262acd566c4a"
 
   url "https://github.com/matt-the-ogre/cribsheet-releases/releases/download/v#{version}/Cribsheet-#{version}.zip"
   name "Cribsheet"
