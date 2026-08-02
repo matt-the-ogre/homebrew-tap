@@ -7,15 +7,13 @@ cask "cribsheet" do
   desc "Hold Command to see every keyboard shortcut of the frontmost app"
   homepage "https://mattmanuel.com/cribsheet/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Cribsheet.app"
 
   uninstall quit: "com.mattmanuel.cribsheet"
 
-  zap trash: [
-    "~/Library/Preferences/com.mattmanuel.cribsheet.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.mattmanuel.cribsheet.plist"
 
   caveats <<~EOS
     Cribsheet reads menus through macOS Accessibility. On first launch,
